@@ -148,7 +148,7 @@ HIGHLIGHTS
     position: relative;
 }
 
-#highlight:befor {
+#highlight:before {
     background: url("assets/wave.svg");
     content: "";
     position: absolute;
@@ -156,6 +156,7 @@ HIGHLIGHTS
     height: 12vw;
     top: 1px;
     left: 0;
+    z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateY(-100%);
